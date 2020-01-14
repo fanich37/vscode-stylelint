@@ -85,6 +85,11 @@
           "default": null,
           "description": "A partial stylelint config whose properties override the existing ones."
         },
+        "stylelint.reportNeedlessDisables": {
+          "type": "boolean",
+          "default": false,
+          "description": "Also report errors for `stylelint-disable` comments that are not blocking a lint warning."
+        },
         "stylelint.packageManager": {
           "scope": "resource",
           "type": "string",

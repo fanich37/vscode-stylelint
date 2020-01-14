@@ -80,6 +80,13 @@ Default: `null`
 
 Set stylelint [`config`](https://github.com/stylelint/stylelint/blob/master/docs/user-guide/node-api.md#config) option. Note that when this option is enabled, stylelint doesn't load configuration files.
 
+#### stylelint.reportNeedlessDisables
+
+Type: `boolean`  
+Default: `false`
+
+Set stylelint [`reportNeedlessDisables`](https://stylelint.io/user-guide/node-api#reportneedlessdisables) option. If `true`, also report errors for `stylelint-disable` comments that are not blocking a lint warning.
+
 #### stylelint.packageManager
 
 Type: `"npm" | "yarn" | "pnpm"`  
